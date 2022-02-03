@@ -21,7 +21,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@node-js-getting-started/hello@workspace:packages/hello"
   dependencies:
-    typescript: ^4.5.5
+    typescript: ~4.1.5
   languageName: unknown
   linkType: soft
 
@@ -1346,23 +1346,23 @@ resolve@~1.22.0:
   languageName: node
   linkType: hard
 
-typescript@^4.5.5:
-  version: 4.5.5
-  resolution: "typescript@npm:4.5.5"
+"typescript@patch:typescript@~4.1.5#~builtin<compat/typescript>":
+  version: 4.1.6
+  resolution: "typescript@patch:typescript@npm%3A4.1.6#~builtin<compat/typescript>::version=4.1.6&hash=32657b"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 506f4c919dc8aeaafa92068c997f1d213b9df4d9756d0fae1a1e7ab66b585ab3498050e236113a1c9e57ee08c21ec6814ca7a7f61378c058d79af50a4b1f5a5e
+  checksum: 4049d2a87ba5b11b9f14dd163135ac820657912ddc1e932c4057080fc8a4b718f744ea7e183af9c8f0edad21285880620788b3af985406432ac0a63bd57d9de0
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.5.5#~builtin<compat/typescript>":
-  version: 4.5.5
-  resolution: "typescript@patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=32657b"
+typescript@~4.1.5:
+  version: 4.1.6
+  resolution: "typescript@npm:4.1.6"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: ed34e0986bc395da29a9a749fc980741fcbf698c205d6dc282310a652ee4ae61b571c26fd62c8a264ec26ff23ef12d888d5db7b41031cfaad1798db0d090f5c3
+  checksum: 54aed909f94b16178c8a8d8911871b4e1c04454a3e6c82166715e28083e7ce6271e4d1df6f82c89544a4759b07aec780785032534e9c93b254e2107a18712c05
   languageName: node
   linkType: hard
 

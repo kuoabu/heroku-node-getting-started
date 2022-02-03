@@ -2,6 +2,9 @@
   "name": "node-js-getting-started",
   "packageManager": "yarn@3.0.2",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "workspaces": [
     "packages/*"
   ],
