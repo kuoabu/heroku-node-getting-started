@@ -5,6 +5,17 @@ __metadata:
   version: 4
   cacheKey: 8
 
+"@node-js-getting-started/app@workspace:packages/app":
+  version: 0.0.0-use.local
+  resolution: "@node-js-getting-started/app@workspace:packages/app"
+  dependencies:
+    ejs: ^3.1.5
+    express: ^4.15.2
+    got: ^11.3.0
+    tape: ^4.7.0
+  languageName: unknown
+  linkType: soft
+
 "@sindresorhus/is@npm:^4.0.0":
   version: 4.4.0
   resolution: "@sindresorhus/is@npm:4.4.0"
@@ -945,11 +956,6 @@ __metadata:
 "node-js-getting-started@workspace:.":
   version: 0.0.0-use.local
   resolution: "node-js-getting-started@workspace:."
-  dependencies:
-    ejs: ^3.1.5
-    express: ^4.15.2
-    got: ^11.3.0
-    tape: ^4.7.0
   languageName: unknown
   linkType: soft
 
