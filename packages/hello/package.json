@@ -1,0 +1,12 @@
+{
+  "name": "@node-js-getting-started/hello",
+  "packageManager": "yarn@3.0.2",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
