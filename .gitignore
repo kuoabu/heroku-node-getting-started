@@ -10,3 +10,12 @@ npm-debug.log
 # Docker
 Dockerfile
 docker-compose.yml
+
+# Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
