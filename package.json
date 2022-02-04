@@ -10,6 +10,6 @@
   ],
   "scripts": {
     "build": "yarn workspaces foreach -pt run build",
-    "start": "PORT=3000 node packages/app/index.js"
+    "start": "node packages/app/index.js"
   }
 }
