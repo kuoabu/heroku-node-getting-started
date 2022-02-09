@@ -1,9 +1,13 @@
 {
   "name": "Start on Heroku: Node.js",
   "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/kuoabu/heroku-node-getting-started",
+  "repository": "https://github.com/kuoabu/heroku-node-getting-started/tree/fold/web",
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
-  "keywords": ["node", "express", "heroku"],
+  "keywords": [
+    "node",
+    "express",
+    "heroku"
+  ],
   "image": "heroku/nodejs",
   "env": {
     "NODE_MODULES_CACHE": {
